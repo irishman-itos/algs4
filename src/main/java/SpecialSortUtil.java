@@ -56,9 +56,21 @@ public class SpecialSortUtil {
         return list;
     }
 
+    public static Integer[] getRandomIntArray(int N) {
+
+        Integer[] list = new Integer[N];
+
+        for (int j = 0; j < N; j++) {
+            list[j] = StdRandom.uniform(N);
+        }
+
+
+        return list;
+    }
+
     public static Boolean less(Comparable v, Comparable w)
     {
-        return v.compareTo(w) < 0;
+        return null != v && v.compareTo(w) < 0;
     }
 
     public static Boolean isSort(Comparable[] list) {
