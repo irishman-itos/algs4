@@ -43,8 +43,8 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int N = 10;
-//        Double[] list  = SpecialSortUtil.getRandomArray(N);
-        Integer[] list  = SpecialSortUtil.getZeroOneArray(N);
+        Double[] list  = SpecialSortUtil.getRandomArray(N);
+//        Integer[] list  = SpecialSortUtil.getZeroOneArray(N);
 
         sort(list);
 
